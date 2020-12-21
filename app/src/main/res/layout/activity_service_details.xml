@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="15dp"
     android:background="#fffbb0"
+    android:padding="15dp"
     tools:context=".ServiceDetails">
 
     <TextView

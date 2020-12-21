@@ -11,6 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Booking Successful !!"
+        android:textStyle="bold"
         android:gravity="center"
         android:layout_centerInParent="true"
         android:textColor="@color/design_default_color_primary"

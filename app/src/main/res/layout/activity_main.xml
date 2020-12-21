@@ -7,16 +7,26 @@
     android:background="#fffbb0"
     tools:context=".MainActivity">
 
+    <ImageView
+        android:id="@+id/bannerImage"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/banner" />
+
     <TextView
         android:id="@+id/mainTextHeader1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
+        android:layout_below="@+id/bannerImage"
         android:layout_margin="30dp"
         android:gravity="center"
+        android:textStyle="bold"
         android:text="Welcome to Proximity Service"
         android:textColor="@color/design_default_color_primary"
-        android:textSize="45sp"/>
+        android:textSize="40sp"/>
 
     <TextView
         android:id="@+id/mainTextHeader2"
@@ -28,7 +38,7 @@
         android:gravity="center"
         android:text="We are committed to serve our customers anytime and anywhere…"
         android:textColor="@color/design_default_color_primary"
-        android:textSize="25sp"/>
+        android:textSize="22sp"/>
 
     <LinearLayout
         android:id="@+id/linlayout1"

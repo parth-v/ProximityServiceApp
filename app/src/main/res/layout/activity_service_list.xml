@@ -27,6 +27,7 @@
                 android:layout_marginTop="30dp"
                 android:layout_weight="40"
                 android:text="How can we serve you today?"
+                android:textStyle="bold"
                 android:textColor="@color/design_default_color_primary"
                 android:textSize="30sp">
 
