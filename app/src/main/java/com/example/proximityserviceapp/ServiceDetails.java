@@ -1,5 +1,6 @@
 package com.example.proximityserviceapp;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
@@ -12,8 +13,9 @@ public class ServiceDetails extends AppCompatActivity {
         setContentView(R.layout.activity_service_details);
 
     }
-    public void openBookActivity (View view) {
-        //Open Book Activity
+    public void openBookSuccessActivity (View view) {
+        Intent intent = new Intent(this, BookSuccessActivity.class);
+        startActivity(intent);
     }
 
 }
