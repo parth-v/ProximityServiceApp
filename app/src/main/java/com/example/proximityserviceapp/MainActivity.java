@@ -14,8 +14,13 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void openServiceDetailsActivity(View view){
+    public void openServiceListActivity(View view){
         Intent intentGetStarted = new Intent(MainActivity.this, ServiceList.class);
         startActivity(intentGetStarted);
+    }
+
+    public void openServiceDetailsActivity(View view){
+        Intent intent = new Intent(this, ServiceDetails.class);
+        startActivity(intent);
     }
 }
