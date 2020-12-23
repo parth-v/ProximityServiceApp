@@ -55,7 +55,9 @@
             android:layout_height="wrap_content"
             android:text="Our Services"
             android:textAllCaps="false"
+            android:padding="10dp"
             android:onClick="openServiceListActivity"
+            android:background="@drawable/custom_button"
             android:textSize="20sp"
             android:layout_marginTop="15dp"/>
 
@@ -65,6 +67,8 @@
             android:layout_height="wrap_content"
             android:text="Book Service"
             android:textAllCaps="false"
+            android:background="@drawable/custom_button"
+            android:padding="10dp"
             android:onClick="openServiceDetailsActivity"
             android:textSize="20sp"
             android:layout_marginTop="15dp"/>
