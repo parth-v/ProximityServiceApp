@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Proximity Service</string>
+    <string name="booking_time">Enter the time you wish to avail the service</string>
+    <string name="pick_date_and_time">Pick Date and Time</string>
 </resources>

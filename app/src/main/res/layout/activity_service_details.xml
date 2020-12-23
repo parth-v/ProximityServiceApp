@@ -66,11 +66,32 @@
     </RadioGroup>
 
     <TextView
+        android:id="@+id/textPaymentAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/groupradio"
+        android:layout_marginTop="70dp"
+        android:text="@string/booking_time"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/design_default_color_primary"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-black"/>
+
+    <Button
+        android:id="@+id/btnPick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:layout_below="@id/textPaymentAmount"
+        android:text="@string/pick_date_and_time"/>
+
+    <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:layout_below="@id/groupradio"
+        android:layout_below="@id/btnPick"
         android:visibility="gone" />
 
     <Button
