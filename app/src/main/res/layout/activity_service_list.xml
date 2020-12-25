@@ -32,6 +32,14 @@
                 android:textSize="30sp">
 
             </TextView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="60"
+                android:src="@drawable/refer_icon">
+
+            </ImageView>
         </LinearLayout>
 
         <EditText

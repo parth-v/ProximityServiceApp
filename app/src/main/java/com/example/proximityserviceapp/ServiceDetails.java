@@ -27,6 +27,7 @@ public class ServiceDetails extends AppCompatActivity implements DatePickerDialo
         textView = findViewById(R.id.textView);
         button = findViewById(R.id.btnPick);
         button.setOnClickListener(v -> {
+            //Make calendar dialog picker for booking service
             Calendar calendar = Calendar.getInstance();
             year = calendar.get(Calendar.YEAR);
             month = calendar.get(Calendar.MONTH);
@@ -36,6 +37,7 @@ public class ServiceDetails extends AppCompatActivity implements DatePickerDialo
         });
     }
     public void openBookSuccessActivity (View view) {
+        //Open book success activity once user is done with data entry passing the service time selected
         Intent intent = new Intent(this, BookSuccessActivity.class);
         TextView text = (TextView) findViewById(R.id.textView);
         String time = String.valueOf(text.getText());
@@ -45,6 +47,7 @@ public class ServiceDetails extends AppCompatActivity implements DatePickerDialo
 
     @Override
     public void onDateSet(DatePicker view, int year, int month, int dayOfMonth) {
+        //Setting the time picker dialog
         myYear = year;
         myday = day;
         myMonth = month;
@@ -57,6 +60,7 @@ public class ServiceDetails extends AppCompatActivity implements DatePickerDialo
 
     @Override
     public void onTimeSet(TimePicker view, int hourOfDay, int minute) {
+        //Setting and displaying date and time to the user along with other service form inputs
         myHour = hourOfDay;
         myMinute = minute;
         RadioGroup radioGroup = (RadioGroup) findViewById(R.id.groupradio);

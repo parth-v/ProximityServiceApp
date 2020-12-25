@@ -11,6 +11,8 @@ public class BookSuccessActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_book_success);
+
+        //Display the scheduled time for the selected service
         Intent intent = getIntent();
         String time = intent.getStringExtra("Time");
         TextView textView = (TextView) findViewById(R.id.textSuccessHeader);
