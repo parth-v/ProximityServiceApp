@@ -2,4 +2,21 @@
     <string name="app_name">Proximity Service</string>
     <string name="booking_time">Enter the time you wish to avail the service</string>
     <string name="pick_date_and_time">Pick Date and Time</string>
+    <string name="book_service">Book Service</string>
+    <string name="our_services">Our Services</string>
+    <string name="main_sub_header">We are committed to serve our customers anytime and anywhere…</string>
+    <string name="main_header">Welcome to Proximity Service</string>
+    <string name="success_logo">success logo</string>
+    <string name="confirm_booking">Confirm Booking</string>
+    <string name="choice_5">Choice 5</string>
+    <string name="choice_4">Choice 4</string>
+    <string name="choice_3">Choice 3</string>
+    <string name="choice_2">Choice 2</string>
+    <string name="choice_1">Choice 1</string>
+    <string name="service_details_header">Please choose from the list of available technicians</string>
+    <string name="service_list_header">How can we serve you today?</string>
+    <string name="service_toon">service toon</string>
+    <string name="search_for_available_services">Search for available services</string>
+    <string name="card">card</string>
+    <string name="_19_services">19 services</string>
 </resources>

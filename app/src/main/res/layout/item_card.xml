@@ -4,7 +4,6 @@
     android:id="@+id/card_item"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_marginRight="8dp"
@@ -15,7 +14,8 @@
     app:cardBackgroundColor="@android:color/white"
     app:cardCornerRadius="14dp"
     app:cardElevation=".1dp"
-    app:cardPreventCornerOverlap="false">
+    app:cardPreventCornerOverlap="false"
+    android:layout_marginEnd="8dp">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -27,7 +27,8 @@
             android:layout_width="match_parent"
             android:layout_height="120dp"
             android:scaleType="centerCrop"
-            android:src="@drawable/course_design_thinking" />
+            android:src="@drawable/course_design_thinking"
+            android:contentDescription="@string/card" />
 
         <TextView
             android:id="@+id/stag_item_service"
@@ -48,7 +49,7 @@
             android:layout_marginTop="4dp"
             android:layout_marginRight="20dp"
             android:layout_marginBottom="20dp"
-            android:text="19 services"
+            android:text="@string/_19_services"
             android:textColor="@color/material_on_surface_emphasis_medium"
             android:textSize="12sp" />
 

@@ -26,7 +26,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="30dp"
                 android:layout_weight="40"
-                android:text="How can we serve you today?"
+                android:text="@string/service_list_header"
                 android:textStyle="bold"
                 android:textColor="@color/design_default_color_primary"
                 android:textSize="30sp">
@@ -37,7 +37,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="60"
-                android:src="@drawable/refer_icon">
+                android:src="@drawable/refer_icon"
+                android:contentDescription="@string/service_toon">
 
             </ImageView>
         </LinearLayout>
@@ -57,10 +58,11 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
             android:gravity="center_vertical"
-            android:hint="Search for available services"
+            android:hint="@string/search_for_available_services"
             android:textColor="@color/design_default_color_primary"
             android:textSize="20sp"
-            android:drawableRight="@drawable/ic_search_black">
+            android:drawableRight="@drawable/ic_search_black"
+            android:drawableEnd="@drawable/ic_search_black">
         </EditText>
 
         <LinearLayout
