@@ -4,13 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#fffbb0"
+    android:padding="15dp"
     tools:context=".BookSuccessActivity">
 
     <ImageView
         android:id="@+id/successImage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="10dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/success"
         android:contentDescription="@string/success_logo" />
@@ -21,10 +23,11 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/successImage"
         android:text=""
+        android:layout_marginTop="10dp"
         android:textStyle="bold"
         android:gravity="center"
         android:layout_centerInParent="true"
         android:textColor="@color/design_default_color_primary"
-        android:textSize="50sp"/>
+        android:textSize="25sp"/>
 
 </RelativeLayout>

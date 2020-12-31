@@ -32,6 +32,8 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:id="@+id/radio_id1"
+            android:textColor="@color/purple_200"
+            android:buttonTint="@color/purple_200"
             android:text="@string/choice_1"
             android:textSize="20sp"/>
 
@@ -39,6 +41,8 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:id="@+id/radio_id2"
+            android:textColor="@color/purple_200"
+            android:buttonTint="@color/purple_200"
             android:text="@string/choice_2"
             android:textSize="20sp"/>
 
@@ -46,6 +50,8 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:id="@+id/radio_id3"
+            android:textColor="@color/purple_200"
+            android:buttonTint="@color/purple_200"
             android:text="@string/choice_3"
             android:textSize="20sp"/>
 
@@ -53,6 +59,8 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:id="@+id/radio_id4"
+            android:textColor="@color/purple_200"
+            android:buttonTint="@color/purple_200"
             android:text="@string/choice_4"
             android:textSize="20sp"/>
 
@@ -60,6 +68,8 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:id="@+id/radio_id5"
+            android:textColor="@color/purple_200"
+            android:buttonTint="@color/purple_200"
             android:text="@string/choice_5"
             android:textSize="20sp"/>
 
