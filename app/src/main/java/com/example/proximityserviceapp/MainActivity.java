@@ -14,8 +14,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void openServiceListActivity(View view){
-        Intent intentGetStarted = new Intent(MainActivity.this, ServiceList.class);
-        startActivity(intentGetStarted);
+        Intent i = new Intent(MainActivity.this, ServiceList.class);
+        startActivity(i);
     }
 
     public void openServiceDetailsActivity(View view){
